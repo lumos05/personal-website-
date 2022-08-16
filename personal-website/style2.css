@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Bebas+Neue&family=Dancing+Script:wght@500&family=Montserrat&family=Nanum+Myeongjo&family=Oxygen:wght@300&family=Poppins:wght@100&family=Sansita+Swashed:wght@300&family=Satisfy&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', serif;
+    background-color:  #ffe6e6 ;
+
+
+}
+
+.info{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 22px;
+    line-height: 40px;
+}
+.info h1{
+    
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+
+
+.info p{
+    
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.info ul{
+    list-style-type:none;
+   
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+.table-info th{
+    border: 1px solid #404040;
+   text-align: center;
+   background-color:  #f2e6ff;
+   padding: 4px 30px 4px 8px;
+}
+
+.table-info td{
+    border: 1px solid  #404040;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td{
+    background-color:   #f0f0f5;
+}
+
+table tr:nth-child(even) td{
+    background-color:  #e6f7ff;
+}
+
+
+.feedback-form
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid #404040;
+    margin: 50px;
+}
+
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.feedback-form .submit{
+background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

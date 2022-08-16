@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Bebas+Neue&family=Dancing+Script:wght@500&family=Montserrat&family=Nanum+Myeongjo&family=Oxygen:wght@300&family=Poppins:wght@100&family=Sansita+Swashed:wght@300&family=Satisfy&display=swap');
+
+
+body
+{
+    padding-left: 20px;
+    font-family: 'Oxygen', serif;
+    background-color:  #e6f2ff;
+
+     
+}
+
+
+.contact-info{
+   
+   padding:0;
+    list-style-type:none;
+    
+}
+
+.contact-info li{
+    font-size: 22px;
+    margin-bottom: 15px;
+    
+    
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
